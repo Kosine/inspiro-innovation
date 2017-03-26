@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Inspiro</title>
+  </head>
+  <body>
+    <form id = "converter">
+      <div id = "from">
+        <select class = "from">
+          <option value = "degree">Degree celsius</option>
+          <option value = "fahrenheit">Fahrenheit</option>
+          <option value = "metre">Metre</option>
+          <option value = "cm">Centimetre</option>
+        </select>
+        <input type="number" name="value">
+      </div>
+      <div id = "to">
+        <select class = "to">
+          <option value="degree">Degree celsius</option>
+          <option value="fahrenheit">Fahrenheit</option>
+          <option value="metre">Metre</option>
+          <option value = "cm">Centimetre</option>
+        </select>
+        <input type="number" name="output" disabled="disabled">
+      </div>
+
+      <button type="submit" name="button">Convert</button>
+
+      <script
+      src="http://code.jquery.com/jquery-3.2.1.js"
+      integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+      crossorigin="anonymous"></script>
+
+      <script type ="text/javascript" src = "js/converter.js"></script>
+    </form>
+  </body>
+</html>
